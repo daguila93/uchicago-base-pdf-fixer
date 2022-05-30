@@ -1,0 +1,17 @@
+{
+  "name": "Uchicago PDF Fixer",
+  "description": "Fixing PDF Visualization from Uchicago Base by UFF STI",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "128": "uchicago.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
